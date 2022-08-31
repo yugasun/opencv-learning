@@ -1,15 +1,17 @@
 """Main module."""
 
-import cv2
+from modules.section03 import copy_img, play_video, record_video
+from modules.section04 import deal_image
+from modules.section05 import convert_image, capture_blue
 
-ASSET_PATH = "../assets/"
-OUTPUT_PATH = "../outputs/"
+# 1. section01 - 03
+# copy_img()
+# play_video()
+# record_video()
 
-# copy image to gray
-def copy_img():
-    img = cv2.imread(ASSET_PATH + "avatar.jpeg", 0)
-    cv2.namedWindow("avatar", cv2.WINDOW_NORMAL)
-    cv2.imshow("avatar", img)
-    cv2.imwrite(OUTPUT_PATH + "avatar_gray.png", img)
+# 2. section04
+# deal_image()
 
-copy_img()
+# 3. section05
+# convert_image()
+# capture_blue()
