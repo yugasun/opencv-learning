@@ -9,6 +9,12 @@ Python Boilerplate contains all the boilerplate you need to create a Python pack
 
 -   TODO
 
+## Run
+
+```shell
+make run
+```
+
 ## License
 
 MIT License
