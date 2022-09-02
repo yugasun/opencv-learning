@@ -4,6 +4,7 @@ from modules.section03 import copy_img, play_video, record_video
 from modules.section04 import deal_image
 from modules.section05 import convert_image, capture_blue
 from modules.section06 import basic_threshold, all_threshold, auto_threshold
+from modules.section07 import img_resize, img_flip, img_move, img_rotate
 
 # section01 - 03
 # copy_img()
@@ -20,4 +21,10 @@ from modules.section06 import basic_threshold, all_threshold, auto_threshold
 # section06
 # threshold_color()
 # all_threshold()
-auto_threshold()
+# auto_threshold()
+
+# section07
+# img_resize()
+# img_flip()
+# img_move()
+img_rotate()

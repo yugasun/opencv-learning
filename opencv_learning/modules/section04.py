@@ -7,7 +7,7 @@ cwd = os.getcwd()
 ASSET_PATH = os.path.join(cwd, "assets/")
 OUTPUT_PATH = os.path.join(cwd, "outputs/")
 
-avatar = os.path.join(ASSET_PATH, "avatar.jpeg")
+avatar = os.path.join(ASSET_PATH, "avatar.png")
 
 
 def join(filename):
