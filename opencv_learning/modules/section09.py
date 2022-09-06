@@ -41,13 +41,12 @@ def img_mix():
 
     # create mask
     img2gray = cv2.cvtColor(img2, cv2.COLOR_BGR2GRAY)
-    ret, mask = cv2.threshold(img2gray, 200, 255, cv2.THRESH_BINARY)
+    _, mask1 = cv2.threshold(img2gray, 200, 255, cv2.THRESH_BINARY)
+    _, mask = cv2.threshold(mask1, 10, 255, cv2.THRESH_BINARY)
     mask_inv = cv2.bitwise_not(mask)
 
-    # img_show("mix", mask_inv)
-
     # keep background except logo
-    img1_bg = cv2.bitwise_and(roi, roi, mask=mask)
+    img1_bg = cv2.bitwise_and(roi, roi, mask=mask_inv)
     # merge image
     dst = cv2.add(img1_bg, img2)
     # place in source image

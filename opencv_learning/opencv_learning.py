@@ -7,6 +7,7 @@ from modules.section06 import basic_threshold, all_threshold, auto_threshold
 from modules.section07 import img_resize, img_flip, img_move, img_rotate
 from modules.section08 import draw
 from modules.section09 import img_merge, img_mix
+from modules.section10 import img_blur, img_filter, img_gaussian_blur, img_median_blur, img_bilateral_blur
 
 # section01 - 03
 # copy_img()
@@ -36,4 +37,11 @@ from modules.section09 import img_merge, img_mix
 
 # section09
 # img_merge()
-img_mix()
+# img_mix()
+
+# section09
+# img_blur()
+# img_filter()
+# img_gaussian_blur()
+# img_median_blur()
+img_bilateral_blur()
