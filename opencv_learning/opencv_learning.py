@@ -8,6 +8,7 @@ from modules.section07 import img_resize, img_flip, img_move, img_rotate
 from modules.section08 import draw
 from modules.section09 import img_merge, img_mix
 from modules.section10 import img_blur, img_filter, img_gaussian_blur, img_median_blur, img_bilateral_blur
+from modules.section11 import img_canny_detect
 
 # section01 - 03
 # copy_img()
@@ -39,9 +40,12 @@ from modules.section10 import img_blur, img_filter, img_gaussian_blur, img_media
 # img_merge()
 # img_mix()
 
-# section09
+# section10
 # img_blur()
 # img_filter()
 # img_gaussian_blur()
 # img_median_blur()
-img_bilateral_blur()
+# img_bilateral_blur()
+
+# section11
+img_canny_detect()
