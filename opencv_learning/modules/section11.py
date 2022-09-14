@@ -22,7 +22,7 @@ def img_show(title, img, isWait=True):
         cv2.waitKey(0)
 
 
-# average blur
+# canny detect image edge
 def img_canny_detect():
     img = cv2.imread(file, 0)
 
