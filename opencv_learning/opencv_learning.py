@@ -10,6 +10,7 @@ from modules.section09 import img_merge, img_mix
 from modules.section10 import img_blur, img_filter, img_gaussian_blur, img_median_blur, img_bilateral_blur
 from modules.section11 import img_canny_detect
 from modules.section12 import img_erode, img_dilate, img_morphology
+from modules.section13 import img_find_contour
 
 # section01 - 03
 # copy_img()
@@ -54,5 +55,8 @@ from modules.section12 import img_erode, img_dilate, img_morphology
 # section12
 # img_erode()
 # img_dilate()
-img_morphology()
+# img_morphology()
+
+# section 13
+img_find_contour()
 
