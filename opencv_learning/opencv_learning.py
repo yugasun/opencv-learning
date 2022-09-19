@@ -11,6 +11,7 @@ from modules.section10 import img_blur, img_filter, img_gaussian_blur, img_media
 from modules.section11 import img_canny_detect
 from modules.section12 import img_erode, img_dilate, img_morphology
 from modules.section13 import img_find_contour
+from modules.section14 import img_contour_feature, img_match_shape
 
 # section01 - 03
 # copy_img()
@@ -58,5 +59,8 @@ from modules.section13 import img_find_contour
 # img_morphology()
 
 # section 13
-img_find_contour()
+# img_find_contour()
 
+# section 14
+# img_contour_feature()
+img_match_shape()
