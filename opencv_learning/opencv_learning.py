@@ -12,6 +12,7 @@ from modules.section11 import img_canny_detect
 from modules.section12 import img_erode, img_dilate, img_morphology
 from modules.section13 import img_find_contour
 from modules.section14 import img_contour_feature, img_match_shape
+from modules.section15 import calc_hist, img_equalize
 
 # section01 - 03
 # copy_img()
@@ -63,4 +64,8 @@ from modules.section14 import img_contour_feature, img_match_shape
 
 # section 14
 # img_contour_feature()
-img_match_shape()
+# img_match_shape()
+
+# section 15
+# calc_hist()
+img_equalize()
