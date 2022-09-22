@@ -1,9 +1,6 @@
 # opencv-learning
 
-Python Boilerplate contains all the boilerplate you need to create a Python package.
-
--   Free software: MIT license
--   Documentation: https://opencv-learning.readthedocs.io.
+Learning code examples for [OpenCV-Python Tutorial](https://github.com/CodecWang/opencv-python-tutorial)
 
 ## Features
 
