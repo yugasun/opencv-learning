@@ -9,7 +9,7 @@ cwd = os.getcwd()
 ASSET_PATH = os.path.join(cwd, "assets/")
 OUTPUT_PATH = os.path.join(cwd, "outputs/")
 
-avatarFile = os.path.join(ASSET_PATH, "avatar-small.png")
+avatarFile = os.path.join(ASSET_PATH, "avatar.png")
 logoFile = os.path.join(ASSET_PATH, "logo.png")
 
 

@@ -13,6 +13,7 @@ from modules.section12 import img_erode, img_dilate, img_morphology
 from modules.section13 import img_find_contour
 from modules.section14 import img_contour_feature, img_match_shape
 from modules.section15 import calc_hist, img_equalize
+from modules.section16 import img_match, img_multi_match
 
 # section01 - 03
 # copy_img()
@@ -68,4 +69,8 @@ from modules.section15 import calc_hist, img_equalize
 
 # section 15
 # calc_hist()
-img_equalize()
+# img_equalize()
+
+# section 16
+# img_match()
+img_multi_match()
