@@ -14,6 +14,7 @@ from modules.section13 import img_find_contour
 from modules.section14 import img_contour_feature, img_match_shape
 from modules.section15 import calc_hist, img_equalize
 from modules.section16 import img_match, img_multi_match
+from modules.section17 import img_hough_line, img_hough_line_p, img_hough_circle
 
 # section01 - 03
 # copy_img()
@@ -73,4 +74,9 @@ from modules.section16 import img_match, img_multi_match
 
 # section 16
 # img_match()
-img_multi_match()
+# img_multi_match()
+
+# section 17
+# img_hough_line()
+# img_hough_line_p()
+img_hough_circle()
